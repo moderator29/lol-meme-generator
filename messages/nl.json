@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "track": "Zending Volgen",
+    "services": "Diensten",
+    "about": "Over Ons",
+    "contact": "Contact",
+    "adminPortal": "Beheerportaal"
+  },
+  "hero": {
+    "badge": "Vertrouwd door 50.000 Bedrijven Wereldwijd",
+    "headline": "Precieze Levering. Intelligent Volgen.",
+    "subheadline": "Volg elke zending in realtime met het meest geavanceerde platform voor privekoeriers dat ooit is gebouwd.",
+    "placeholder": "Voer uw trackingnummer in, bijvoorbeeld EDP-2026-000001",
+    "cta": "Zending Volgen",
+    "trust1": "Volledig Beveiligd",
+    "trust2": "Meer dan 180 Landen",
+    "trust3": "Realtime Updates"
+  },
+  "stats": {
+    "shipments": "Geleverde Zendingen",
+    "countries": "Bediende Landen",
+    "onTime": "Levering op Tijd",
+    "partners": "Zakelijke Partners"
+  },
+  "features": {
+    "eyebrow": "Waarom Voor Ons Kiezen",
+    "titlePrefix": "Gebouwd voor de ",
+    "titleHighlight": "Toekomst",
+    "titleSuffix": " van Logistiek",
+    "subtitle": "Elke functie ontworpen voor volledige transparantie, absolute veiligheid en ongeevenaarde snelheid.",
+    "items": {
+      "tracking": { "title": "Realtime Tracking", "description": "Live updates in elke fase van de reis van uw zending met hoge precisie." },
+      "global": { "title": "Wereldwijde Dekking", "description": "Ons netwerk strekt zich uit over 180 landen om ervoor te zorgen dat uw pakket elke hoek van de wereld bereikt." },
+      "secure": { "title": "Veilige Levering", "description": "Encryptie van militair niveau beschermt uw zendingsgegevens en persoonlijke informatie op elke laag." },
+      "express": { "title": "Express Oplossingen", "description": "Levering dezelfde dag, de volgende dag en s nachts voor tijdgevoelige zendingen wereldwijd." },
+      "enterprise": { "title": "Bedrijfsintelligentie", "description": "Schaalbare logistieke infrastructuur ontworpen om te groeien van een zending tot een miljoen." },
+      "routing": { "title": "Slimme Routing", "description": "Geoptimaliseerde routing vindt de snelste en meest betrouwbare weg voor elk pakket." }
+    }
+  },
+  "how": {
+    "title": "Volg Uw Zending in Drie Stappen.",
+    "subtitle": "De eenvoudigste trackingervaring ooit gebouwd voor een koeriersplatform.",
+    "step1": { "title": "Ontvang Uw Trackingnummer", "description": "Wanneer uw zending door ons operationele team wordt aangemaakt, ontvangt u een unieke EDP trackingnummer. Dit is uw sleutel tot volledige transparantie van aanmaak tot levering." },
+    "step2": { "title": "Voer Het Hierboven In", "description": "Plak uw EDP trackingnummer in onze intelligente zoekinterface. Ons systeem vindt direct uw zending, waar in de wereld die zich ook bevindt." },
+    "step3": { "title": "Volg Elke Mijlpaal", "description": "Bekijk de voortgang van uw pakket in elke fase van zijn internationale reis met live updates en nauwkeurige levertijden." }
+  },
+  "services": {
+    "title": "Uitgebreide Koeriersoplossingen.",
+    "subtitle": "Of u een document door de stad verzendt of vracht over continenten, wij hebben de perfecte oplossing.",
+    "learnMore": "Meer Weten",
+    "items": {
+      "express": { "title": "Express Levering", "description": "Gegarandeerde snelle levering met prioritaire behandeling bij elk knooppunt van de route." },
+      "freight": { "title": "Internationaal Vrachtvervoer", "description": "Grensoverschrijdende verzending met volledige douaneafhandeling, kostenberekening en documentondersteuning." },
+      "sameDay": { "title": "Koerier Dezelfde Dag", "description": "Lokale ophaling binnen een uur voor urgente documenten en tijdsgevoelige goederen." },
+      "enterprise": { "title": "Bedrijfslogistiek", "description": "Toegewijde infrastructuur, accountbeheer en aangepaste integraties voor grote verzenders." }
+    }
+  },
+  "testimonials": {
+    "title": "Wat Onze Partners Zeggen."
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen.",
+    "subtitle": "Alles wat u moet weten over EDP Courier."
+  },
+  "contact": {
+    "title": "Neem Contact op met Ons Wereldwijde Operationele Team.",
+    "name": "Naam",
+    "email": "Email",
+    "phone": "Telefoon",
+    "subject": "Onderwerp",
+    "message": "Bericht",
+    "submit": "Bericht Versturen",
+    "emailSupport": "Email Ondersteuning",
+    "phoneSupport": "Telefonische Ondersteuning",
+    "globalHq": "Wereldwijd Hoofdkantoor"
+  },
+  "footer": {
+    "tagline": "Precisie. Snelheid. Intelligentie.",
+    "company": "Bedrijf",
+    "support": "Ondersteuning",
+    "legal": "Juridisch",
+    "about": "Over Ons",
+    "services": "Diensten",
+    "careers": "Carrieres",
+    "press": "Pers",
+    "trackShipment": "Zending Volgen",
+    "faq": "Veelgestelde Vragen",
+    "contact": "Contact",
+    "statusPage": "Statuspagina",
+    "privacy": "Privacybeleid",
+    "terms": "Servicevoorwaarden",
+    "cookies": "Cookiebeleid",
+    "compliance": "Naleving",
+    "copyright": "Alle rechten voorbehouden."
+  },
+  "common": {
+    "loading": "Laden",
+    "tryAgain": "Opnieuw Proberen",
+    "viewDetails": "Details Bekijken",
+    "close": "Sluiten",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "submit": "Versturen"
+  },
+  "trackPage": {
+    "title": "Volg Uw Zending.",
+    "subtitle": "Voer uw EDP trackingnummer in om de realtime status en de volledige geschiedenis van de reis te bekijken.",
+    "recentSearches": "Recente Zoekopdrachten"
+  },
+  "notFound": {
+    "heading": "Geen Zending Gevonden.",
+    "body": "We konden geen zending vinden die overeenkomt met trackingnummer {id}. Controleer uw nummer en probeer het opnieuw.",
+    "help": "Hulp nodig. Neem contact op met ons ondersteuningsteam."
+  },
+  "languageSelector": {
+    "label": "Taal"
+  }
+}

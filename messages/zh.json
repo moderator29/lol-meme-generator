@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "track": "追踪包裹",
+    "services": "服务",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "adminPortal": "管理后台"
+  },
+  "hero": {
+    "badge": "全球五万家企业的信赖之选",
+    "headline": "精准配送，智能追踪。",
+    "subheadline": "使用有史以来最先进的私营快递智能平台，实时追踪每一个包裹。",
+    "placeholder": "请输入您的追踪号码，例如 EDP-2026-000001",
+    "cta": "追踪包裹",
+    "trust1": "全程安全保障",
+    "trust2": "覆盖180多个国家",
+    "trust3": "实时状态更新"
+  },
+  "stats": {
+    "shipments": "已送达包裹",
+    "countries": "服务覆盖国家",
+    "onTime": "按时送达率",
+    "partners": "企业合作伙伴"
+  },
+  "features": {
+    "eyebrow": "为何选择我们",
+    "titlePrefix": "为物流",
+    "titleHighlight": "未来",
+    "titleSuffix": "而打造",
+    "subtitle": "每一项功能都旨在实现完全可视化、绝对安全和无与匹敌的速度。",
+    "items": {
+      "tracking": { "title": "实时追踪", "description": "在包裹运输的每个阶段提供精确到毫秒的实时状态更新。" },
+      "global": { "title": "全球覆盖", "description": "我们的网络覆盖180个国家，确保您的包裹能到达世界每个角落。" },
+      "secure": { "title": "安全配送", "description": "军用级加密技术在每一层保护您的包裹数据和个人信息。" },
+      "express": { "title": "快速方案", "description": "为全球紧急包裹提供当日达、次日达和隔夜配送选项。" },
+      "enterprise": { "title": "企业级智能系统", "description": "可扩展的物流基础设施，从单个包裹到百万包裹皆可平稳增长。" },
+      "routing": { "title": "智能路线规划", "description": "优化路线系统为每个包裹找到最快最可靠的路径。" }
+    }
+  },
+  "how": {
+    "title": "三步即可追踪您的包裹。",
+    "subtitle": "史上最简单的快递追踪体验。",
+    "step1": { "title": "获取您的追踪号码", "description": "当我们的运营团队创建您的包裹后，您将收到唯一的EDP追踪号码，这是您从创建到送达全程可视化的钥匙。" },
+    "step2": { "title": "在上方输入号码", "description": "将您的EDP追踪号码粘贴到我们的智能搜索界面中，系统会立即定位您在世界任何地方的包裹。" },
+    "step3": { "title": "跟踪每一个节点", "description": "通过实时更新、精确位置数据和准确的预计送达时间，观察您的包裹在国际旅程中每个阶段的进展。" }
+  },
+  "services": {
+    "title": "全面的快递解决方案。",
+    "subtitle": "无论您是要在城市内寄送文件，还是要跨大洲运输货物，我们都有完美的解决方案。",
+    "learnMore": "了解更多",
+    "items": {
+      "express": { "title": "快速配送", "description": "保证快速送达，沿途每个站点均享优先处理。" },
+      "freight": { "title": "国际货运", "description": "完成清关跨境运输，提供完整关税计算和文件支持。" },
+      "sameDay": { "title": "当日快递", "description": "一小时内本地取件，适用于紧急文件和有时效要求的货物。" },
+      "enterprise": { "title": "企业物流", "description": "为大型寄件企业提供专属基础设施、客户经理服务和定制集成方案。" }
+    }
+  },
+  "testimonials": {
+    "title": "合作伙伴的评价。"
+  },
+  "faq": {
+    "title": "常见问题。",
+    "subtitle": "关于EDP快递您需要了解的一切。"
+  },
+  "contact": {
+    "title": "联系我们的全球运营团队。",
+    "name": "姓名",
+    "email": "电子邮箱",
+    "phone": "电话",
+    "subject": "主题",
+    "message": "留言",
+    "submit": "发送留言",
+    "emailSupport": "邮件支持",
+    "phoneSupport": "电话支持",
+    "globalHq": "全球总部"
+  },
+  "footer": {
+    "tagline": "精准，速度，智能。",
+    "company": "公司",
+    "support": "支持",
+    "legal": "法律信息",
+    "about": "关于我们",
+    "services": "服务",
+    "careers": "招聘",
+    "press": "新闻",
+    "trackShipment": "追踪包裹",
+    "faq": "常见问题",
+    "contact": "联系我们",
+    "statusPage": "状态页面",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie政策",
+    "compliance": "合规声明",
+    "copyright": "版权所有。"
+  },
+  "common": {
+    "loading": "加载中",
+    "tryAgain": "重试",
+    "viewDetails": "查看详情",
+    "close": "关闭",
+    "cancel": "取消",
+    "save": "保存",
+    "submit": "提交"
+  },
+  "trackPage": {
+    "title": "追踪您的包裹。",
+    "subtitle": "输入您的EDP追踪号码，查看实时状态和完整的运输历史记录。",
+    "recentSearches": "最近搜索"
+  },
+  "notFound": {
+    "heading": "未找到相关包裹。",
+    "body": "我们未能找到与追踪号码 {id} 匹配的包裹，请核对您的号码并重试。",
+    "help": "需要帮助。请联系我们的支持团队。"
+  },
+  "languageSelector": {
+    "label": "语言"
+  }
+}

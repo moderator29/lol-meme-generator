@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "track": "Rastrear un Envio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "adminPortal": "Portal de Administracion"
+  },
+  "hero": {
+    "badge": "Confiado por 50,000 Empresas en Todo el Mundo",
+    "headline": "Entrega Precisa. Seguimiento Inteligente.",
+    "subheadline": "Rastree cada envio en tiempo real con la plataforma de mensajeria privada mas avanzada jamas creada.",
+    "placeholder": "Ingrese su numero de rastreo, por ejemplo EDP-2026-000001",
+    "cta": "Rastrear Envio",
+    "trust1": "Seguro de Extremo a Extremo",
+    "trust2": "Mas de 180 Paises",
+    "trust3": "Actualizaciones en Tiempo Real"
+  },
+  "stats": {
+    "shipments": "Envios Entregados",
+    "countries": "Paises Atendidos",
+    "onTime": "Entregas a Tiempo",
+    "partners": "Socios Comerciales"
+  },
+  "features": {
+    "eyebrow": "Por Que Elegirnos",
+    "titlePrefix": "Creado para el ",
+    "titleHighlight": "Futuro",
+    "titleSuffix": " de la Logistica",
+    "subtitle": "Cada funcion esta disenada para ofrecer visibilidad total, seguridad absoluta y una velocidad inigualable.",
+    "items": {
+      "tracking": { "title": "Seguimiento en Tiempo Real", "description": "Actualizaciones en vivo en cada etapa del recorrido de su envio con precision milimetrica." },
+      "global": { "title": "Cobertura Global", "description": "Nuestra red abarca 180 paises garantizando que su paquete llegue a cada rincon del mundo." },
+      "secure": { "title": "Entrega Segura", "description": "Un cifrado de grado militar protege los datos de su envio e informacion personal en cada capa." },
+      "express": { "title": "Soluciones Express", "description": "Opciones de entrega el mismo dia, al dia siguiente y durante la noche para envios urgentes en todo el mundo." },
+      "enterprise": { "title": "Inteligencia Empresarial", "description": "Infraestructura logistica escalable disenada para crecer desde un envio hasta un millon." },
+      "routing": { "title": "Enrutamiento Inteligente", "description": "Un enrutamiento optimizado encuentra la ruta mas rapida y confiable para cada paquete." }
+    }
+  },
+  "how": {
+    "title": "Rastree su Envio en Tres Pasos.",
+    "subtitle": "La experiencia de rastreo mas simple jamas creada para una plataforma de mensajeria.",
+    "step1": { "title": "Reciba su Numero de Rastreo", "description": "Cuando nuestro equipo de operaciones crea su envio, usted recibe un numero de rastreo EDP unico. Esta es su clave para una visibilidad completa desde la creacion hasta la entrega." },
+    "step2": { "title": "Ingreselo Arriba", "description": "Pegue su numero de rastreo EDP en nuestra interfaz de busqueda inteligente. Nuestro sistema localiza instantaneamente su envio en cualquier parte del mundo." },
+    "step3": { "title": "Siga Cada Etapa", "description": "Observe el progreso de su paquete en cada etapa de su recorrido internacional con actualizaciones en vivo y fechas de entrega precisas." }
+  },
+  "services": {
+    "title": "Soluciones de Mensajeria Integrales.",
+    "subtitle": "Ya sea que envie un documento dentro de la ciudad o carga a traves de continentes, tenemos la solucion perfecta.",
+    "learnMore": "Saber Mas",
+    "items": {
+      "express": { "title": "Entrega Express", "description": "Entrega rapida garantizada con manejo prioritario en cada centro de la ruta." },
+      "freight": { "title": "Carga Internacional", "description": "Envio transfronterizo con despacho aduanero, calculo de impuestos y soporte documental completo." },
+      "sameDay": { "title": "Mensajeria el Mismo Dia", "description": "Despacho local dentro de la hora para documentos urgentes y mercancias sensibles al tiempo." },
+      "enterprise": { "title": "Logistica Empresarial", "description": "Infraestructura dedicada, gestion de cuentas e integraciones personalizadas para grandes remitentes." }
+    }
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen Nuestros Socios."
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes.",
+    "subtitle": "Todo lo que necesita saber sobre EDP Courier."
+  },
+  "contact": {
+    "title": "Comuniquese con Nuestro Equipo de Operaciones Global.",
+    "name": "Nombre",
+    "email": "Correo Electronico",
+    "phone": "Telefono",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "submit": "Enviar Mensaje",
+    "emailSupport": "Soporte por Correo",
+    "phoneSupport": "Soporte Telefonico",
+    "globalHq": "Sede Global"
+  },
+  "footer": {
+    "tagline": "Precision. Velocidad. Inteligencia.",
+    "company": "Empresa",
+    "support": "Soporte",
+    "legal": "Legal",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "careers": "Carreras",
+    "press": "Prensa",
+    "trackShipment": "Rastrear Envio",
+    "faq": "Preguntas Frecuentes",
+    "contact": "Contacto",
+    "statusPage": "Pagina de Estado",
+    "privacy": "Politica de Privacidad",
+    "terms": "Terminos de Servicio",
+    "cookies": "Politica de Cookies",
+    "compliance": "Cumplimiento",
+    "copyright": "Todos los derechos reservados."
+  },
+  "common": {
+    "loading": "Cargando",
+    "tryAgain": "Intentar de Nuevo",
+    "viewDetails": "Ver Detalles",
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "submit": "Enviar"
+  },
+  "trackPage": {
+    "title": "Rastree su Envio.",
+    "subtitle": "Ingrese su numero de rastreo EDP para ver el estado en tiempo real y el historial completo del recorrido.",
+    "recentSearches": "Busquedas Recientes"
+  },
+  "notFound": {
+    "heading": "No se Encontro Ningun Envio.",
+    "body": "No pudimos encontrar un envio que coincida con el numero de rastreo {id}. Verifique su numero e intente nuevamente.",
+    "help": "Necesita ayuda. Contacte a nuestro equipo de soporte."
+  },
+  "languageSelector": {
+    "label": "Idioma"
+  }
+}

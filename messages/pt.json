@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "track": "Rastrear uma Encomenda",
+    "services": "Servicos",
+    "about": "Sobre",
+    "contact": "Contato",
+    "adminPortal": "Portal do Administrador"
+  },
+  "hero": {
+    "badge": "Confiado por 50.000 Empresas em Todo o Mundo",
+    "headline": "Entrega Precisa. Rastreamento Inteligente.",
+    "subheadline": "Acompanhe cada envio em tempo real com a plataforma de courier privada mais avancada ja criada.",
+    "placeholder": "Digite seu numero de rastreamento, por exemplo EDP-2026-000001",
+    "cta": "Rastrear Encomenda",
+    "trust1": "Seguro de Ponta a Ponta",
+    "trust2": "Mais de 180 Paises",
+    "trust3": "Atualizacoes em Tempo Real"
+  },
+  "stats": {
+    "shipments": "Encomendas Entregues",
+    "countries": "Paises Atendidos",
+    "onTime": "Entregas no Prazo",
+    "partners": "Parceiros Comerciais"
+  },
+  "features": {
+    "eyebrow": "Por Que Nos Escolher",
+    "titlePrefix": "Construido para o ",
+    "titleHighlight": "Futuro",
+    "titleSuffix": " da Logistica",
+    "subtitle": "Cada recurso projetado para visibilidade completa, seguranca absoluta e velocidade incomparavel.",
+    "items": {
+      "tracking": { "title": "Rastreamento em Tempo Real", "description": "Atualizacoes em tempo real em cada etapa da jornada da sua encomenda com precisao maxima." },
+      "global": { "title": "Cobertura Global", "description": "Nossa rede abrange 180 paises garantindo que sua encomenda chegue a todos os cantos do mundo." },
+      "secure": { "title": "Entrega Segura", "description": "Criptografia de nivel militar protege os dados da sua encomenda e informacoes pessoais em cada camada." },
+      "express": { "title": "Solucoes Express", "description": "Opcoes de entrega no mesmo dia, no dia seguinte e durante a noite para envios urgentes em todo o mundo." },
+      "enterprise": { "title": "Inteligencia Empresarial", "description": "Infraestrutura logistica escalavel projetada para crescer de uma encomenda a um milhao." },
+      "routing": { "title": "Roteamento Inteligente", "description": "O roteamento otimizado encontra o caminho mais rapido e confiavel para cada encomenda." }
+    }
+  },
+  "how": {
+    "title": "Rastreie sua Encomenda em Tres Passos.",
+    "subtitle": "A experiencia de rastreamento mais simples ja criada para uma plataforma de courier.",
+    "step1": { "title": "Receba seu Numero de Rastreamento", "description": "Quando sua encomenda e criada pela nossa equipe de operacoes, voce recebe um numero de rastreamento EDP unico. Esta e sua chave para visibilidade completa da criacao a entrega." },
+    "step2": { "title": "Digite Acima", "description": "Cole seu numero de rastreamento EDP em nossa interface de busca inteligente. Nosso sistema localiza instantaneamente sua encomenda em qualquer lugar do mundo." },
+    "step3": { "title": "Acompanhe Cada Etapa", "description": "Observe o progresso da sua encomenda em cada etapa da jornada internacional com atualizacoes em tempo real e prazos de entrega precisos." }
+  },
+  "services": {
+    "title": "Solucoes Completas de Courier.",
+    "subtitle": "Seja para enviar um documento pela cidade ou carga entre continentes, temos a solucao perfeita.",
+    "learnMore": "Saiba Mais",
+    "items": {
+      "express": { "title": "Entrega Express", "description": "Entrega rapida garantida com tratamento prioritario em cada centro da rota." },
+      "freight": { "title": "Frete Internacional", "description": "Envio transfronteirico com desembaraco aduaneiro completo, calculo de impostos e suporte documental." },
+      "sameDay": { "title": "Courier no Mesmo Dia", "description": "Despacho local dentro de uma hora para documentos urgentes e mercadorias sensiveis ao tempo." },
+      "enterprise": { "title": "Logistica Empresarial", "description": "Infraestrutura dedicada, gestao de contas e integracoes personalizadas para grandes remetentes." }
+    }
+  },
+  "testimonials": {
+    "title": "O Que Nossos Parceiros Dizem."
+  },
+  "faq": {
+    "title": "Perguntas Frequentes.",
+    "subtitle": "Tudo o que voce precisa saber sobre a EDP Courier."
+  },
+  "contact": {
+    "title": "Fale com Nossa Equipe de Operacoes Global.",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefone",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "submit": "Enviar Mensagem",
+    "emailSupport": "Suporte por Email",
+    "phoneSupport": "Suporte Telefonico",
+    "globalHq": "Sede Global"
+  },
+  "footer": {
+    "tagline": "Precisao. Velocidade. Inteligencia.",
+    "company": "Empresa",
+    "support": "Suporte",
+    "legal": "Legal",
+    "about": "Sobre",
+    "services": "Servicos",
+    "careers": "Carreiras",
+    "press": "Imprensa",
+    "trackShipment": "Rastrear Encomenda",
+    "faq": "Perguntas Frequentes",
+    "contact": "Contato",
+    "statusPage": "Pagina de Status",
+    "privacy": "Politica de Privacidade",
+    "terms": "Termos de Servico",
+    "cookies": "Politica de Cookies",
+    "compliance": "Conformidade",
+    "copyright": "Todos os direitos reservados."
+  },
+  "common": {
+    "loading": "Carregando",
+    "tryAgain": "Tentar Novamente",
+    "viewDetails": "Ver Detalhes",
+    "close": "Fechar",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "submit": "Enviar"
+  },
+  "trackPage": {
+    "title": "Rastreie sua Encomenda.",
+    "subtitle": "Digite seu numero de rastreamento EDP para ver o status em tempo real e o historico completo da jornada.",
+    "recentSearches": "Pesquisas Recentes"
+  },
+  "notFound": {
+    "heading": "Nenhuma Encomenda Encontrada.",
+    "body": "Nao conseguimos encontrar uma encomenda correspondente ao numero de rastreamento {id}. Verifique seu numero e tente novamente.",
+    "help": "Precisa de ajuda. Contate nossa equipe de suporte."
+  },
+  "languageSelector": {
+    "label": "Idioma"
+  }
+}

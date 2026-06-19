@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "track": "Fuatilia Shipment",
+    "services": "Huduma",
+    "about": "Kuhusu Sisi",
+    "contact": "Wasiliana Nasi",
+    "adminPortal": "Mlango wa Msimamizi"
+  },
+  "hero": {
+    "badge": "Imeaminiwa na Biashara 50,000 Duniani Kote",
+    "headline": "Uwasilishaji Sahihi. Ufuatiliaji wa Akili.",
+    "subheadline": "Fuatilia kila shipment kwa muda halisi kwa kutumia jukwaa la kisasa zaidi la kurier binafsi lililojengwa.",
+    "placeholder": "Weka namba yako ya ufuatiliaji, kwa mfano EDP-2026-000001",
+    "cta": "Fuatilia Shipment",
+    "trust1": "Salama Mwanzo Hadi Mwisho",
+    "trust2": "Nchi Zaidi ya 180",
+    "trust3": "Masasisho ya Muda Halisi"
+  },
+  "stats": {
+    "shipments": "Shipment Zilizowasilishwa",
+    "countries": "Nchi Zinazohudumiwa",
+    "onTime": "Uwasilishaji kwa Wakati",
+    "partners": "Wabia wa Biashara"
+  },
+  "features": {
+    "eyebrow": "Kwa Nini Utuchague",
+    "titlePrefix": "Imejengwa kwa ",
+    "titleHighlight": "Wakati Ujao",
+    "titleSuffix": " wa Usafirishaji",
+    "subtitle": "Kila kipengele kimeundwa kwa uwazi kamili, usalama wa hakika, na kasi isiyo na kifani.",
+    "items": {
+      "tracking": { "title": "Ufuatiliaji wa Muda Halisi", "description": "Masasisho ya moja kwa moja katika kila hatua ya safari ya shipment yako kwa usahihi mkubwa." },
+      "global": { "title": "Mtandao wa Kimataifa", "description": "Mtandao wetu unafikia nchi 180 kuhakikisha kifurushi chako kinafika kila kona ya dunia." },
+      "secure": { "title": "Uwasilishaji Salama", "description": "Usimbaji wa kiwango cha kijeshi unalinda taarifa za shipment yako na taarifa za kibinafsi katika kila tabaka." },
+      "express": { "title": "Suluhisho za Express", "description": "Chaguo za uwasilishaji wa siku hiyo, siku inayofuata, na usiku kwa shipment za dharura duniani kote." },
+      "enterprise": { "title": "Akili ya Kibiashara", "description": "Muundo wa usafirishaji unaoweza kukua kutoka shipment moja hadi milioni." },
+      "routing": { "title": "Uelekezaji wa Akili", "description": "Uelekezaji uliofanyiwa maboresho unapata njia ya haraka na ya kuaminika zaidi kwa kila kifurushi." }
+    }
+  },
+  "how": {
+    "title": "Fuatilia Shipment Yako kwa Hatua Tatu.",
+    "subtitle": "Uzoefu rahisi zaidi wa ufuatiliaji uliojengwa kwa jukwaa la kurier.",
+    "step1": { "title": "Pata Namba Yako ya Ufuatiliaji", "description": "Wakati timu yetu ya uendeshaji inapounda shipment yako, unapokea namba ya kipekee ya ufuatiliaji ya EDP. Hii ni ufunguo wako wa uwazi kamili kutoka uumbaji hadi uwasilishaji." },
+    "step2": { "title": "Iweke Hapo Juu", "description": "Bandika namba yako ya ufuatiliaji ya EDP kwenye mfumo wetu wa utafutaji wa akili. Mfumo wetu unapata shipment yako papo hapo popote duniani." },
+    "step3": { "title": "Fuatilia Kila Hatua", "description": "Tazama maendeleo ya kifurushi chako katika kila hatua ya safari yake ya kimataifa kwa masasisho ya moja kwa moja na muda sahihi wa uwasilishaji." }
+  },
+  "services": {
+    "title": "Suluhisho Kamili za Kurier.",
+    "subtitle": "Iwe unatuma hati ndani ya jiji au mizigo kati ya mabara, tunayo suluhisho kamili.",
+    "learnMore": "Jifunze Zaidi",
+    "items": {
+      "express": { "title": "Uwasilishaji wa Express", "description": "Uwasilishaji wa haraka uliodhamiriwa kwa matibabu ya kipaumbele katika kila kituo cha njia." },
+      "freight": { "title": "Usafirishaji wa Kimataifa", "description": "Usafirishaji wa mipakani na ukamilifu wa forodha, hesabu ya ushuru na msaada wa nyaraka." },
+      "sameDay": { "title": "Kurier wa Siku Hiyo", "description": "Ukusanyaji wa eneo ndani ya saa moja kwa hati za dharura na bidhaa nyeti za muda." },
+      "enterprise": { "title": "Usafirishaji wa Kibiashara", "description": "Muundo maalum, usimamizi wa akaunti, na uunganisho maalum kwa wasafirishaji wakubwa." }
+    }
+  },
+  "testimonials": {
+    "title": "Wanachosema Wabia Wetu."
+  },
+  "faq": {
+    "title": "Maswali Yanayoulizwa Mara kwa Mara.",
+    "subtitle": "Kila kitu unachohitaji kujua kuhusu EDP Courier."
+  },
+  "contact": {
+    "title": "Wasiliana na Timu Yetu ya Uendeshaji Duniani.",
+    "name": "Jina",
+    "email": "Barua Pepe",
+    "phone": "Simu",
+    "subject": "Mada",
+    "message": "Ujumbe",
+    "submit": "Tuma Ujumbe",
+    "emailSupport": "Msaada wa Barua Pepe",
+    "phoneSupport": "Msaada wa Simu",
+    "globalHq": "Makao Makuu ya Kimataifa"
+  },
+  "footer": {
+    "tagline": "Usahihi. Kasi. Akili.",
+    "company": "Kampuni",
+    "support": "Msaada",
+    "legal": "Kisheria",
+    "about": "Kuhusu Sisi",
+    "services": "Huduma",
+    "careers": "Kazi",
+    "press": "Habari",
+    "trackShipment": "Fuatilia Shipment",
+    "faq": "Maswali ya Kawaida",
+    "contact": "Wasiliana Nasi",
+    "statusPage": "Ukurasa wa Hali",
+    "privacy": "Sera ya Faragha",
+    "terms": "Masharti ya Huduma",
+    "cookies": "Sera ya Vidakuzi",
+    "compliance": "Uzingatiaji",
+    "copyright": "Haki zote zimehifadhiwa."
+  },
+  "common": {
+    "loading": "Inapakia",
+    "tryAgain": "Jaribu Tena",
+    "viewDetails": "Tazama Maelezo",
+    "close": "Funga",
+    "cancel": "Ghairi",
+    "save": "Hifadhi",
+    "submit": "Wasilisha"
+  },
+  "trackPage": {
+    "title": "Fuatilia Shipment Yako.",
+    "subtitle": "Weka namba yako ya ufuatiliaji ya EDP kuona hali ya muda halisi na historia kamili ya safari.",
+    "recentSearches": "Utafutaji wa Karibuni"
+  },
+  "notFound": {
+    "heading": "Hakuna Shipment Iliyopatikana.",
+    "body": "Hatukuweza kupata shipment inayolingana na namba ya ufuatiliaji {id}. Tafadhali hakiki namba yako na ujaribu tena.",
+    "help": "Unahitaji msaada. Wasiliana na timu yetu ya msaada."
+  },
+  "languageSelector": {
+    "label": "Lugha"
+  }
+}

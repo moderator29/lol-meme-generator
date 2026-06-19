@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "track": "Suivre un Colis",
+    "services": "Services",
+    "about": "A Propos",
+    "contact": "Contact",
+    "adminPortal": "Portail Administrateur"
+  },
+  "hero": {
+    "badge": "Plebiscite par 50 000 Entreprises dans le Monde",
+    "headline": "Livraison Precise. Suivi Intelligent.",
+    "subheadline": "Suivez chaque envoi en temps reel grace a la plateforme de coursier privee la plus avancee jamais construite.",
+    "placeholder": "Entrez votre numero de suivi, par exemple EDP-2026-000001",
+    "cta": "Suivre le Colis",
+    "trust1": "Securise de Bout en Bout",
+    "trust2": "Plus de 180 Pays",
+    "trust3": "Mises a Jour en Temps Reel"
+  },
+  "stats": {
+    "shipments": "Colis Livres",
+    "countries": "Pays Desservis",
+    "onTime": "Livraisons a Temps",
+    "partners": "Partenaires Commerciaux"
+  },
+  "features": {
+    "eyebrow": "Pourquoi Nous Choisir",
+    "titlePrefix": "Concu pour le ",
+    "titleHighlight": "Futur",
+    "titleSuffix": " de la Logistique",
+    "subtitle": "Chaque fonctionnalite est concue pour une visibilite totale, une securite absolue et une rapidite inegalee.",
+    "items": {
+      "tracking": { "title": "Suivi en Temps Reel", "description": "Des mises a jour en direct a chaque etape du parcours de votre colis avec une precision extreme." },
+      "global": { "title": "Couverture Mondiale", "description": "Notre reseau couvre 180 pays pour garantir que votre colis atteigne chaque coin du monde." },
+      "secure": { "title": "Livraison Securisee", "description": "Un chiffrement de niveau militaire protege vos donnees d expedition et vos informations personnelles." },
+      "express": { "title": "Solutions Express", "description": "Options de livraison le jour meme, le lendemain ou de nuit pour les envois urgents partout dans le monde." },
+      "enterprise": { "title": "Intelligence Entreprise", "description": "Une infrastructure logistique evolutive concue pour grandir d un seul colis a un million." },
+      "routing": { "title": "Routage Intelligent", "description": "Un routage optimise trouve le chemin le plus rapide et le plus fiable pour chaque colis." }
+    }
+  },
+  "how": {
+    "title": "Suivez Votre Colis en Trois Etapes.",
+    "subtitle": "L experience de suivi la plus simple jamais creee pour une plateforme de coursier.",
+    "step1": { "title": "Recevez Votre Numero de Suivi", "description": "Lorsque votre envoi est cree par notre equipe operationnelle, vous recevez un numero de suivi EDP unique. C est votre cle vers une visibilite complete de la creation a la livraison." },
+    "step2": { "title": "Entrez le Ci Dessus", "description": "Collez votre numero de suivi EDP dans notre interface de recherche intelligente. Notre systeme localise instantanement votre colis partout dans le monde." },
+    "step3": { "title": "Suivez Chaque Etape", "description": "Observez la progression de votre colis a chaque etape de son parcours international avec des mises a jour en direct et des delais de livraison precis." }
+  },
+  "services": {
+    "title": "Des Solutions de Livraison Completes.",
+    "subtitle": "Que vous expediez un document a travers la ville ou du fret a travers les continents, nous avons la solution parfaite.",
+    "learnMore": "En Savoir Plus",
+    "items": {
+      "express": { "title": "Livraison Express", "description": "Livraison rapide garantie avec un traitement prioritaire a chaque relais du trajet." },
+      "freight": { "title": "Fret International", "description": "Expedition transfrontaliere dedouanee avec calcul complet des droits et soutien documentaire." },
+      "sameDay": { "title": "Coursier le Jour Meme", "description": "Prise en charge locale dans l heure pour les documents urgents et les marchandises sensibles au temps." },
+      "enterprise": { "title": "Logistique Entreprise", "description": "Infrastructure dediee, gestion de compte et integrations personnalisees pour les grands expediteurs." }
+    }
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Partenaires."
+  },
+  "faq": {
+    "title": "Questions Frequentes.",
+    "subtitle": "Tout ce que vous devez savoir sur EDP Courier."
+  },
+  "contact": {
+    "title": "Contactez Notre Equipe Operationnelle Mondiale.",
+    "name": "Nom",
+    "email": "Email",
+    "phone": "Telephone",
+    "subject": "Sujet",
+    "message": "Message",
+    "submit": "Envoyer le Message",
+    "emailSupport": "Support par Email",
+    "phoneSupport": "Support Telephonique",
+    "globalHq": "Siege Mondial"
+  },
+  "footer": {
+    "tagline": "Precision. Vitesse. Intelligence.",
+    "company": "Entreprise",
+    "support": "Assistance",
+    "legal": "Mentions Legales",
+    "about": "A Propos",
+    "services": "Services",
+    "careers": "Carrieres",
+    "press": "Presse",
+    "trackShipment": "Suivre un Colis",
+    "faq": "Questions Frequentes",
+    "contact": "Contact",
+    "statusPage": "Page d Etat",
+    "privacy": "Politique de Confidentialite",
+    "terms": "Conditions d Utilisation",
+    "cookies": "Politique relative aux Cookies",
+    "compliance": "Conformite",
+    "copyright": "Tous droits reserves."
+  },
+  "common": {
+    "loading": "Chargement",
+    "tryAgain": "Reessayer",
+    "viewDetails": "Voir les Details",
+    "close": "Fermer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "submit": "Soumettre"
+  },
+  "trackPage": {
+    "title": "Suivez Votre Colis.",
+    "subtitle": "Entrez votre numero de suivi EDP pour voir le statut en temps reel et l historique complet du parcours.",
+    "recentSearches": "Recherches Recentes"
+  },
+  "notFound": {
+    "heading": "Aucun Colis Trouve.",
+    "body": "Nous n avons pas trouve de colis correspondant au numero de suivi {id}. Veuillez verifier votre numero et reessayer.",
+    "help": "Besoin d aide. Contactez notre equipe d assistance."
+  },
+  "languageSelector": {
+    "label": "Langue"
+  }
+}

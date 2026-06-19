@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "track": "Gonderi Takip Et",
+    "services": "Hizmetler",
+    "about": "Hakkimizda",
+    "contact": "Iletisim",
+    "adminPortal": "Yonetici Portali"
+  },
+  "hero": {
+    "badge": "Dunya Capinda 50.000 Isletme Tarafindan Tercih Ediliyor",
+    "headline": "Hassas Teslimat. Akilli Takip.",
+    "subheadline": "Simdiye kadar gelistirilen en gelismis ozel kurye istihbarat platformu ile her gonderiyi gercek zamanli takip edin.",
+    "placeholder": "Takip numaranizi girin, ornegin EDP-2026-000001",
+    "cta": "Gonderiyi Takip Et",
+    "trust1": "Uctan Uca Guvenli",
+    "trust2": "180 den Fazla Ulke",
+    "trust3": "Gercek Zamanli Guncellemeler"
+  },
+  "stats": {
+    "shipments": "Teslim Edilen Gonderi",
+    "countries": "Hizmet Verilen Ulke",
+    "onTime": "Zamaninda Teslimat Orani",
+    "partners": "Is Ortagi"
+  },
+  "features": {
+    "eyebrow": "Neden Bizi Secmelisiniz",
+    "titlePrefix": "Lojistigin ",
+    "titleHighlight": "Gelecegi",
+    "titleSuffix": " icin Insa Edildi",
+    "subtitle": "Her ozellik tam gorunurluk, mutlak guvenlik ve essiz hiz icin tasarlandi.",
+    "items": {
+      "tracking": { "title": "Gercek Zamanli Takip", "description": "Gonderinizin yolculugunun her asamasinda yuksek hassasiyetle canli guncellemeler." },
+      "global": { "title": "Kuresel Kapsama", "description": "Agimiz 180 ulkeye yayilarak paketinizin dunyanin her koesesine ulasmasini saglar." },
+      "secure": { "title": "Guvenli Teslimat", "description": "Askeri seviye sifreleme, her katmanda gonderi verilerinizi ve kisisel bilgilerinizi korur." },
+      "express": { "title": "Ekspres Cozumler", "description": "Dunya capinda acil gonderiler icin ayni gun, ertesi gun ve gece teslimat secenekleri." },
+      "enterprise": { "title": "Kurumsal Zeka", "description": "Tek bir gonderiden bir milyona kadar buyuyebilen olceklenebilir lojistik altyapisi." },
+      "routing": { "title": "Akilli Rotalama", "description": "Optimize edilmis rotalama her paket icin en hizli ve en guvenilir yolu bulur." }
+    }
+  },
+  "how": {
+    "title": "Gonderinizi Uc Adimda Takip Edin.",
+    "subtitle": "Bir kurye platformu icin simdiye kadar olusturulan en basit takip deneyimi.",
+    "step1": { "title": "Takip Numaranizi Alin", "description": "Operasyon ekibimiz gonderinizi olusturdugunda, benzersiz bir EDP takip numarasi alirsiniz. Bu, olusturmadan teslimata kadar tam gorunurluk icin anahtarinizdir." },
+    "step2": { "title": "Yukariya Girin", "description": "EDP takip numaranizi akilli arama arayuzumuze yapistirin. Sistemimiz gonderinizi dunyanin neresinde olursa olsun aninda bulur." },
+    "step3": { "title": "Her Asamayi Takip Edin", "description": "Canli guncellemeler ve dogru teslimat sureleriyle paketinizin uluslararasi yolculugunun her asamasindaki ilerlemesini izleyin." }
+  },
+  "services": {
+    "title": "Kapsamli Kurye Cozumleri.",
+    "subtitle": "Sehir icinde bir belge gonderiyor olun ya da kitalar arasi yuk tasiyor olun, mukemmel cozumumuz var.",
+    "learnMore": "Daha Fazla Bilgi",
+    "items": {
+      "express": { "title": "Ekspres Teslimat", "description": "Rota uzerindeki her merkezde oncelikli islemle garantili hizli teslimat." },
+      "freight": { "title": "Uluslararasi Tasimacilik", "description": "Tam gumruk islemleri, vergi hesaplamasi ve belge destegi ile sinir asan gonderim." },
+      "sameDay": { "title": "Ayni Gun Kurye", "description": "Acil belgeler ve zamana hassas urunler icin bir saat icinde yerel teslim alma." },
+      "enterprise": { "title": "Kurumsal Lojistik", "description": "Buyuk gonderici isletmeler icin ozel altyapi, hesap yonetimi ve ozel entegrasyonlar." }
+    }
+  },
+  "testimonials": {
+    "title": "Ortaklarimiz Ne Diyor."
+  },
+  "faq": {
+    "title": "Sikca Sorulan Sorular.",
+    "subtitle": "EDP Courier hakkinda bilmeniz gereken her sey."
+  },
+  "contact": {
+    "title": "Kuresel Operasyon Ekibimizle Iletisime Gecin.",
+    "name": "Ad",
+    "email": "E posta",
+    "phone": "Telefon",
+    "subject": "Konu",
+    "message": "Mesaj",
+    "submit": "Mesaj Gonder",
+    "emailSupport": "E posta Destegi",
+    "phoneSupport": "Telefon Destegi",
+    "globalHq": "Kuresel Genel Merkez"
+  },
+  "footer": {
+    "tagline": "Hassasiyet. Hiz. Zeka.",
+    "company": "Sirket",
+    "support": "Destek",
+    "legal": "Yasal",
+    "about": "Hakkimizda",
+    "services": "Hizmetler",
+    "careers": "Kariyer",
+    "press": "Basin",
+    "trackShipment": "Gonderi Takip Et",
+    "faq": "Sikca Sorulan Sorular",
+    "contact": "Iletisim",
+    "statusPage": "Durum Sayfasi",
+    "privacy": "Gizlilik Politikasi",
+    "terms": "Kullanim Sartlari",
+    "cookies": "Cerez Politikasi",
+    "compliance": "Uyumluluk",
+    "copyright": "Tum haklari saklidir."
+  },
+  "common": {
+    "loading": "Yukleniyor",
+    "tryAgain": "Tekrar Dene",
+    "viewDetails": "Detaylari Gor",
+    "close": "Kapat",
+    "cancel": "Vazgec",
+    "save": "Kaydet",
+    "submit": "Gonder"
+  },
+  "trackPage": {
+    "title": "Gonderinizi Takip Edin.",
+    "subtitle": "Gercek zamanli durumu ve tam yolculuk gecmisini gormek icin EDP takip numaranizi girin.",
+    "recentSearches": "Son Aramalar"
+  },
+  "notFound": {
+    "heading": "Gonderi Bulunamadi.",
+    "body": "{id} takip numarasiyla eslesen bir gonderi bulamadik. Lutfen numaranizi kontrol edin ve tekrar deneyin.",
+    "help": "Yardima mi ihtiyaciniz var. Destek ekibimizle iletisime gecin."
+  },
+  "languageSelector": {
+    "label": "Dil"
+  }
+}

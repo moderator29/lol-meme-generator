@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "track": "Track a Shipment",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "adminPortal": "Admin Portal"
+  },
+  "hero": {
+    "badge": "Trusted by 50,000 Businesses Worldwide",
+    "headline": "Precision Delivery. Intelligent Tracking.",
+    "subheadline": "Track every shipment in real time with the most advanced private courier intelligence platform ever built.",
+    "placeholder": "Enter your tracking number, for example EDP-2026-000001",
+    "cta": "Track Shipment",
+    "trust1": "Secure End to End",
+    "trust2": "180 Plus Countries",
+    "trust3": "Real Time Updates"
+  },
+  "stats": {
+    "shipments": "Shipments Delivered",
+    "countries": "Countries Served",
+    "onTime": "On Time Delivery",
+    "partners": "Business Partners"
+  },
+  "features": {
+    "eyebrow": "Why Choose Us",
+    "titlePrefix": "Built for the ",
+    "titleHighlight": "Future",
+    "titleSuffix": " of Logistics",
+    "subtitle": "Every feature engineered for complete visibility, absolute security, and unmatched speed.",
+    "items": {
+      "tracking": { "title": "Real Time Tracking", "description": "Live status updates at every stage of your shipment journey with millisecond precision." },
+      "global": { "title": "Global Coverage", "description": "Our network spans 180 countries ensuring your package reaches every corner of the world." },
+      "secure": { "title": "Secure Delivery", "description": "Military grade encryption protects your shipment data and personal information at every layer." },
+      "express": { "title": "Express Solutions", "description": "Same day, next day, and overnight delivery options for time critical shipments worldwide." },
+      "enterprise": { "title": "Enterprise Intelligence", "description": "Scalable logistics infrastructure designed to grow from one shipment to one million." },
+      "routing": { "title": "Smart Routing", "description": "Optimized routing finds the fastest and most reliable path for every package we handle." }
+    }
+  },
+  "how": {
+    "title": "Track Your Shipment in Three Steps.",
+    "subtitle": "The simplest tracking experience ever built for a courier platform.",
+    "step1": { "title": "Receive Your Tracking Number", "description": "When your shipment is created by our operations team, you receive a unique EDP tracking number. This is your key to complete shipment visibility from creation to delivery." },
+    "step2": { "title": "Enter It Above", "description": "Paste your EDP tracking number into our intelligent search interface. Our system instantly locates your shipment anywhere in the world, no matter which stage it is in." },
+    "step3": { "title": "Follow Every Milestone", "description": "Watch your package progress through every stage of its international journey with live updates, precise location data, and accurate estimated delivery times." }
+  },
+  "services": {
+    "title": "Comprehensive Courier Solutions.",
+    "subtitle": "Whether you ship a document across the city or freight across continents, we have the perfect solution.",
+    "learnMore": "Learn More",
+    "items": {
+      "express": { "title": "Express Delivery", "description": "Guaranteed fast delivery with priority handling at every hub along the route." },
+      "freight": { "title": "International Freight", "description": "Customs cleared cross border shipping with full duty calculation and documentation support." },
+      "sameDay": { "title": "Same Day Courier", "description": "Local dispatch within the hour for urgent documents and time sensitive goods." },
+      "enterprise": { "title": "Enterprise Logistics", "description": "Dedicated infrastructure, account management, and custom integrations for large scale shippers." }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Partners Say."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions.",
+    "subtitle": "Everything you need to know about EDP Courier."
+  },
+  "contact": {
+    "title": "Reach Our Global Operations Team.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "emailSupport": "Email Support",
+    "phoneSupport": "Phone Support",
+    "globalHq": "Global Headquarters"
+  },
+  "footer": {
+    "tagline": "Precision. Speed. Intelligence.",
+    "company": "Company",
+    "support": "Support",
+    "legal": "Legal",
+    "about": "About",
+    "services": "Services",
+    "careers": "Careers",
+    "press": "Press",
+    "trackShipment": "Track Shipment",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "statusPage": "Status Page",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "compliance": "Compliance",
+    "copyright": "All rights reserved."
+  },
+  "common": {
+    "loading": "Loading",
+    "tryAgain": "Try Again",
+    "viewDetails": "View Details",
+    "close": "Close",
+    "cancel": "Cancel",
+    "save": "Save",
+    "submit": "Submit"
+  },
+  "trackPage": {
+    "title": "Track Your Shipment.",
+    "subtitle": "Enter your EDP tracking number to see real time status and complete journey history.",
+    "recentSearches": "Recent Searches"
+  },
+  "notFound": {
+    "heading": "No Shipment Found.",
+    "body": "We could not find a shipment matching the tracking number {id}. Please verify your number and try again.",
+    "help": "Need help? Contact our support team."
+  },
+  "languageSelector": {
+    "label": "Language"
+  }
+}

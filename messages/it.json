@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "track": "Traccia una Spedizione",
+    "services": "Servizi",
+    "about": "Chi Siamo",
+    "contact": "Contatti",
+    "adminPortal": "Portale Amministratore"
+  },
+  "hero": {
+    "badge": "Scelto da 50.000 Aziende in Tutto il Mondo",
+    "headline": "Consegna Precisa. Tracciamento Intelligente.",
+    "subheadline": "Traccia ogni spedizione in tempo reale con la piattaforma di corriere privato piu avanzata mai costruita.",
+    "placeholder": "Inserisci il tuo numero di tracciamento, ad esempio EDP-2026-000001",
+    "cta": "Traccia Spedizione",
+    "trust1": "Sicuro dall Inizio alla Fine",
+    "trust2": "Oltre 180 Paesi",
+    "trust3": "Aggiornamenti in Tempo Reale"
+  },
+  "stats": {
+    "shipments": "Spedizioni Consegnate",
+    "countries": "Paesi Serviti",
+    "onTime": "Consegne Puntuali",
+    "partners": "Partner Commerciali"
+  },
+  "features": {
+    "eyebrow": "Perche Sceglierci",
+    "titlePrefix": "Costruito per il ",
+    "titleHighlight": "Futuro",
+    "titleSuffix": " della Logistica",
+    "subtitle": "Ogni funzione progettata per garantire visibilita completa, sicurezza assoluta e velocita senza pari.",
+    "items": {
+      "tracking": { "title": "Tracciamento in Tempo Reale", "description": "Aggiornamenti dal vivo in ogni fase del percorso della tua spedizione con massima precisione." },
+      "global": { "title": "Copertura Globale", "description": "La nostra rete si estende a 180 paesi garantendo che il tuo pacco raggiunga ogni angolo del mondo." },
+      "secure": { "title": "Consegna Sicura", "description": "Una crittografia di livello militare protegge i dati della tua spedizione e le informazioni personali a ogni livello." },
+      "express": { "title": "Soluzioni Express", "description": "Opzioni di consegna in giornata, il giorno successivo e notturna per spedizioni urgenti in tutto il mondo." },
+      "enterprise": { "title": "Intelligenza Aziendale", "description": "Infrastruttura logistica scalabile progettata per crescere da una spedizione a un milione." },
+      "routing": { "title": "Instradamento Intelligente", "description": "Un instradamento ottimizzato trova il percorso piu rapido e affidabile per ogni pacco." }
+    }
+  },
+  "how": {
+    "title": "Traccia la Tua Spedizione in Tre Passaggi.",
+    "subtitle": "L esperienza di tracciamento piu semplice mai creata per una piattaforma di corriere.",
+    "step1": { "title": "Ricevi il Tuo Numero di Tracciamento", "description": "Quando la tua spedizione viene creata dal nostro team operativo, ricevi un numero di tracciamento EDP univoco. Questa e la tua chiave per una visibilita completa dalla creazione alla consegna." },
+    "step2": { "title": "Inseriscilo Qui Sopra", "description": "Incolla il tuo numero di tracciamento EDP nella nostra interfaccia di ricerca intelligente. Il nostro sistema individua immediatamente la tua spedizione in qualsiasi parte del mondo." },
+    "step3": { "title": "Segui Ogni Tappa", "description": "Osserva il progresso del tuo pacco in ogni fase del suo viaggio internazionale con aggiornamenti dal vivo e tempi di consegna precisi." }
+  },
+  "services": {
+    "title": "Soluzioni di Corriere Complete.",
+    "subtitle": "Sia che tu spedisca un documento in citta o merci tra continenti, abbiamo la soluzione perfetta.",
+    "learnMore": "Scopri di Piu",
+    "items": {
+      "express": { "title": "Consegna Express", "description": "Consegna rapida garantita con gestione prioritaria in ogni snodo del percorso." },
+      "freight": { "title": "Trasporto Internazionale", "description": "Spedizione transfrontaliera con sdoganamento completo, calcolo dei dazi e supporto documentale." },
+      "sameDay": { "title": "Corriere in Giornata", "description": "Ritiro locale entro un ora per documenti urgenti e merci sensibili al tempo." },
+      "enterprise": { "title": "Logistica Aziendale", "description": "Infrastruttura dedicata, gestione account e integrazioni personalizzate per grandi spedizionieri." }
+    }
+  },
+  "testimonials": {
+    "title": "Cosa Dicono i Nostri Partner."
+  },
+  "faq": {
+    "title": "Domande Frequenti.",
+    "subtitle": "Tutto quello che devi sapere su EDP Courier."
+  },
+  "contact": {
+    "title": "Contatta il Nostro Team Operativo Globale.",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefono",
+    "subject": "Oggetto",
+    "message": "Messaggio",
+    "submit": "Invia Messaggio",
+    "emailSupport": "Supporto via Email",
+    "phoneSupport": "Supporto Telefonico",
+    "globalHq": "Sede Globale"
+  },
+  "footer": {
+    "tagline": "Precisione. Velocita. Intelligenza.",
+    "company": "Azienda",
+    "support": "Supporto",
+    "legal": "Legale",
+    "about": "Chi Siamo",
+    "services": "Servizi",
+    "careers": "Carriere",
+    "press": "Stampa",
+    "trackShipment": "Traccia Spedizione",
+    "faq": "Domande Frequenti",
+    "contact": "Contatti",
+    "statusPage": "Pagina di Stato",
+    "privacy": "Politica sulla Privacy",
+    "terms": "Termini di Servizio",
+    "cookies": "Politica sui Cookie",
+    "compliance": "Conformita",
+    "copyright": "Tutti i diritti riservati."
+  },
+  "common": {
+    "loading": "Caricamento",
+    "tryAgain": "Riprova",
+    "viewDetails": "Vedi Dettagli",
+    "close": "Chiudi",
+    "cancel": "Annulla",
+    "save": "Salva",
+    "submit": "Invia"
+  },
+  "trackPage": {
+    "title": "Traccia la Tua Spedizione.",
+    "subtitle": "Inserisci il tuo numero di tracciamento EDP per vedere lo stato in tempo reale e la cronologia completa del percorso.",
+    "recentSearches": "Ricerche Recenti"
+  },
+  "notFound": {
+    "heading": "Nessuna Spedizione Trovata.",
+    "body": "Non siamo riusciti a trovare una spedizione corrispondente al numero di tracciamento {id}. Verifica il numero e riprova.",
+    "help": "Hai bisogno di aiuto. Contatta il nostro team di supporto."
+  },
+  "languageSelector": {
+    "label": "Lingua"
+  }
+}

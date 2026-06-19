@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "track": "배송 조회",
+    "services": "서비스",
+    "about": "회사 소개",
+    "contact": "문의하기",
+    "adminPortal": "관리자 포털"
+  },
+  "hero": {
+    "badge": "전 세계 5만 개 기업이 신뢰합니다",
+    "headline": "정확한 배송. 지능형 추적.",
+    "subheadline": "지금까지 만들어진 가장 진보된 프라이빗 택배 인텔리전스 플랫폼으로 모든 배송을 실시간으로 추적하세요.",
+    "placeholder": "추적 번호를 입력하세요, 예 EDP-2026-000001",
+    "cta": "배송 조회",
+    "trust1": "처음부터 끝까지 안전",
+    "trust2": "180개 이상 국가",
+    "trust3": "실시간 업데이트"
+  },
+  "stats": {
+    "shipments": "배송 완료 건수",
+    "countries": "서비스 제공 국가",
+    "onTime": "정시 배송률",
+    "partners": "비즈니스 파트너"
+  },
+  "features": {
+    "eyebrow": "선택하는 이유",
+    "titlePrefix": "물류의 ",
+    "titleHighlight": "미래",
+    "titleSuffix": "를 위해 구축",
+    "subtitle": "모든 기능은 완전한 가시성, 절대적인 보안, 그리고 비교할 수 없는 속도를 위해 설계되었습니다.",
+    "items": {
+      "tracking": { "title": "실시간 추적", "description": "배송 여정의 모든 단계에서 정밀한 실시간 상태 업데이트를 제공합니다." },
+      "global": { "title": "글로벌 커버리지", "description": "당사의 네트워크는 180개국에 걸쳐 있어 전 세계 모든 곳에 배송이 가능합니다." },
+      "secure": { "title": "안전한 배송", "description": "군사 수준의 암호화로 모든 계층에서 배송 데이터와 개인 정보를 보호합니다." },
+      "express": { "title": "익스프레스 솔루션", "description": "전 세계 긴급 배송을 위한 당일, 익일, 야간 배송 옵션을 제공합니다." },
+      "enterprise": { "title": "엔터프라이즈 인텔리전스", "description": "단일 배송부터 백만 건까지 성장할 수 있는 확장 가능한 물류 인프라입니다." },
+      "routing": { "title": "스마트 라우팅", "description": "최적화된 라우팅으로 모든 배송에 가장 빠르고 신뢰할 수 있는 경로를 찾습니다." }
+    }
+  },
+  "how": {
+    "title": "세 단계로 배송을 추적하세요.",
+    "subtitle": "택배 플랫폼을 위해 만들어진 가장 간단한 추적 경험입니다.",
+    "step1": { "title": "추적 번호 받기", "description": "운영팀이 배송을 생성하면 고유한 EDP 추적 번호를 받게 됩니다. 이는 생성부터 배송까지 완전한 가시성을 위한 핵심입니다." },
+    "step2": { "title": "위에 입력하기", "description": "EDP 추적 번호를 지능형 검색 인터페이스에 붙여넣으세요. 시스템이 세계 어디에 있든 즉시 배송을 찾아냅니다." },
+    "step3": { "title": "모든 단계 따라가기", "description": "실시간 업데이트와 정확한 예상 배송 시간으로 국제 여정의 모든 단계에서 배송 진행 상황을 확인하세요." }
+  },
+  "services": {
+    "title": "종합 택배 솔루션.",
+    "subtitle": "도시 내 문서 배송이든 대륙 간 화물 운송이든 완벽한 솔루션을 제공합니다.",
+    "learnMore": "더 알아보기",
+    "items": {
+      "express": { "title": "익스프레스 배송", "description": "경로의 모든 거점에서 우선 처리되는 보장된 빠른 배송입니다." },
+      "freight": { "title": "국제 화물 운송", "description": "완전한 관세 계산과 문서 지원을 갖춘 통관 완료 국경 간 배송입니다." },
+      "sameDay": { "title": "당일 택배", "description": "긴급 문서와 시간에 민감한 화물을 위해 한 시간 이내 현지 수거가 가능합니다." },
+      "enterprise": { "title": "엔터프라이즈 물류", "description": "대형 발송업체를 위한 전용 인프라, 계정 관리 및 맞춤형 통합을 제공합니다." }
+    }
+  },
+  "testimonials": {
+    "title": "파트너들의 의견."
+  },
+  "faq": {
+    "title": "자주 묻는 질문.",
+    "subtitle": "EDP Courier에 대해 알아야 할 모든 것입니다."
+  },
+  "contact": {
+    "title": "글로벌 운영팀에 문의하세요.",
+    "name": "이름",
+    "email": "이메일",
+    "phone": "전화번호",
+    "subject": "제목",
+    "message": "메시지",
+    "submit": "메시지 보내기",
+    "emailSupport": "이메일 지원",
+    "phoneSupport": "전화 지원",
+    "globalHq": "글로벌 본사"
+  },
+  "footer": {
+    "tagline": "정밀함. 속도. 지능.",
+    "company": "회사",
+    "support": "지원",
+    "legal": "법적 정보",
+    "about": "회사 소개",
+    "services": "서비스",
+    "careers": "채용",
+    "press": "보도자료",
+    "trackShipment": "배송 조회",
+    "faq": "자주 묻는 질문",
+    "contact": "문의하기",
+    "statusPage": "상태 페이지",
+    "privacy": "개인정보 보호정책",
+    "terms": "서비스 약관",
+    "cookies": "쿠키 정책",
+    "compliance": "컴플라이언스",
+    "copyright": "모든 권리 보유."
+  },
+  "common": {
+    "loading": "로딩 중",
+    "tryAgain": "다시 시도",
+    "viewDetails": "세부 정보 보기",
+    "close": "닫기",
+    "cancel": "취소",
+    "save": "저장",
+    "submit": "제출"
+  },
+  "trackPage": {
+    "title": "배송을 조회하세요.",
+    "subtitle": "EDP 추적 번호를 입력하여 실시간 상태와 전체 여정 기록을 확인하세요.",
+    "recentSearches": "최근 검색"
+  },
+  "notFound": {
+    "heading": "배송을 찾을 수 없습니다.",
+    "body": "추적 번호 {id}에 해당하는 배송을 찾을 수 없습니다. 번호를 확인하고 다시 시도해 주세요.",
+    "help": "도움이 필요하신가요. 지원팀에 문의해 주세요."
+  },
+  "languageSelector": {
+    "label": "언어"
+  }
+}

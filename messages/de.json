@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "track": "Sendung Verfolgen",
+    "services": "Leistungen",
+    "about": "Uber Uns",
+    "contact": "Kontakt",
+    "adminPortal": "Admin Portal"
+  },
+  "hero": {
+    "badge": "Vertraut von 50.000 Unternehmen Weltweit",
+    "headline": "Praezise Lieferung. Intelligentes Tracking.",
+    "subheadline": "Verfolgen Sie jede Sendung in Echtzeit mit der fortschrittlichsten privaten Kurierplattform, die je entwickelt wurde.",
+    "placeholder": "Geben Sie Ihre Sendungsnummer ein, zum Beispiel EDP-2026-000001",
+    "cta": "Sendung Verfolgen",
+    "trust1": "Durchgehend Sicher",
+    "trust2": "Ueber 180 Laender",
+    "trust3": "Echtzeit Updates"
+  },
+  "stats": {
+    "shipments": "Zugestellte Sendungen",
+    "countries": "Belieferte Laender",
+    "onTime": "Puenktliche Zustellung",
+    "partners": "Geschaeftspartner"
+  },
+  "features": {
+    "eyebrow": "Warum Uns Waehlen",
+    "titlePrefix": "Gebaut fuer die ",
+    "titleHighlight": "Zukunft",
+    "titleSuffix": " der Logistik",
+    "subtitle": "Jede Funktion ist fuer vollstaendige Transparenz, absolute Sicherheit und unuebertroffene Geschwindigkeit entwickelt.",
+    "items": {
+      "tracking": { "title": "Echtzeit Verfolgung", "description": "Live Updates in jeder Phase der Reise Ihrer Sendung mit hoechster Praezision." },
+      "global": { "title": "Globale Abdeckung", "description": "Unser Netzwerk erstreckt sich auf 180 Laender und stellt sicher, dass Ihr Paket jeden Winkel der Welt erreicht." },
+      "secure": { "title": "Sichere Zustellung", "description": "Militaerische Verschluesselung schuetzt Ihre Sendungsdaten und persoenlichen Informationen auf jeder Ebene." },
+      "express": { "title": "Express Loesungen", "description": "Lieferoptionen am selben Tag, am naechsten Tag und ueber Nacht fuer zeitkritische Sendungen weltweit." },
+      "enterprise": { "title": "Unternehmensintelligenz", "description": "Skalierbare Logistikinfrastruktur, die von einer Sendung bis zu einer Million wachsen kann." },
+      "routing": { "title": "Intelligente Routenplanung", "description": "Optimiertes Routing findet den schnellsten und zuverlaessigsten Weg fuer jedes Paket." }
+    }
+  },
+  "how": {
+    "title": "Verfolgen Sie Ihre Sendung in Drei Schritten.",
+    "subtitle": "Die einfachste Tracking Erfahrung, die je fuer eine Kurierplattform entwickelt wurde.",
+    "step1": { "title": "Erhalten Sie Ihre Sendungsnummer", "description": "Wenn Ihre Sendung von unserem Operations Team erstellt wird, erhalten Sie eine eindeutige EDP Sendungsnummer. Dies ist Ihr Schluessel zu vollstaendiger Transparenz von der Erstellung bis zur Zustellung." },
+    "step2": { "title": "Geben Sie Sie Oben Ein", "description": "Fuegen Sie Ihre EDP Sendungsnummer in unsere intelligente Suchoberflaeche ein. Unser System findet Ihre Sendung sofort, egal wo sie sich gerade befindet." },
+    "step3": { "title": "Verfolgen Sie Jeden Meilenstein", "description": "Beobachten Sie den Fortschritt Ihres Pakets in jeder Phase seiner internationalen Reise mit Live Updates und genauen Lieferzeiten." }
+  },
+  "services": {
+    "title": "Umfassende Kurierloesungen.",
+    "subtitle": "Ob Sie ein Dokument durch die Stadt oder Frachtgut ueber Kontinente versenden, wir haben die passende Loesung.",
+    "learnMore": "Mehr Erfahren",
+    "items": {
+      "express": { "title": "Express Lieferung", "description": "Garantiert schnelle Lieferung mit bevorzugter Behandlung an jedem Knotenpunkt der Route." },
+      "freight": { "title": "Internationale Fracht", "description": "Grenzueberschreitender Versand mit vollstaendiger Zollabwicklung, Gebuehrenberechnung und Dokumentenunterstuetzung." },
+      "sameDay": { "title": "Kurier am Selben Tag", "description": "Lokale Abholung innerhalb einer Stunde fuer dringende Dokumente und zeitkritische Waren." },
+      "enterprise": { "title": "Unternehmenslogistik", "description": "Dedizierte Infrastruktur, Kundenbetreuung und massgeschneiderte Integrationen fuer grosse Versender." }
+    }
+  },
+  "testimonials": {
+    "title": "Was Unsere Partner Sagen."
+  },
+  "faq": {
+    "title": "Haeufig Gestellte Fragen.",
+    "subtitle": "Alles was Sie ueber EDP Courier wissen muessen."
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Unser Globales Operations Team.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Telefon",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "submit": "Nachricht Senden",
+    "emailSupport": "Email Support",
+    "phoneSupport": "Telefon Support",
+    "globalHq": "Globaler Hauptsitz"
+  },
+  "footer": {
+    "tagline": "Praezision. Geschwindigkeit. Intelligenz.",
+    "company": "Unternehmen",
+    "support": "Support",
+    "legal": "Rechtliches",
+    "about": "Uber Uns",
+    "services": "Leistungen",
+    "careers": "Karriere",
+    "press": "Presse",
+    "trackShipment": "Sendung Verfolgen",
+    "faq": "Haeufige Fragen",
+    "contact": "Kontakt",
+    "statusPage": "Statusseite",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie Richtlinie",
+    "compliance": "Compliance",
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "common": {
+    "loading": "Wird Geladen",
+    "tryAgain": "Erneut Versuchen",
+    "viewDetails": "Details Ansehen",
+    "close": "Schliessen",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "submit": "Absenden"
+  },
+  "trackPage": {
+    "title": "Verfolgen Sie Ihre Sendung.",
+    "subtitle": "Geben Sie Ihre EDP Sendungsnummer ein, um den Echtzeitstatus und die vollstaendige Verlaufshistorie zu sehen.",
+    "recentSearches": "Letzte Suchanfragen"
+  },
+  "notFound": {
+    "heading": "Keine Sendung Gefunden.",
+    "body": "Wir konnten keine Sendung finden, die der Sendungsnummer {id} entspricht. Bitte ueberpruefen Sie Ihre Nummer und versuchen Sie es erneut.",
+    "help": "Brauchen Sie Hilfe. Kontaktieren Sie unser Support Team."
+  },
+  "languageSelector": {
+    "label": "Sprache"
+  }
+}
