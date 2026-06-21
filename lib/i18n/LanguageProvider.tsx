@@ -36,7 +36,10 @@ function resolveMessage(messages: Record<string, unknown>, namespace: string, ke
 export function useTranslations(namespace: string) {
   const { messages } = useLanguage();
   return (key: string, values?: Record<string, string | number>) => {
-    const template = resolveMessage(messages, namespace, key) ?? key;
+    const template =
+      resolveMessage(messages, namespace, key) ??
+      resolveMessage(en as Record<string, unknown>, namespace, key) ??
+      key;
     if (!values) return template;
     return Object.entries(values).reduce(
       (acc, [name, value]) => acc.replaceAll(`{${name}}`, String(value)),
