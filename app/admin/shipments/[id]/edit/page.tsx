@@ -3,6 +3,7 @@ export const dynamic = "force-dynamic";
 import { notFound } from "next/navigation";
 import { TopBar } from "@/components/admin/TopBar";
 import { ShipmentForm } from "@/components/admin/ShipmentForm";
+import { TrackingCodeBanner } from "@/components/admin/TrackingCodeBanner";
 import { getShipmentById } from "@/lib/actions/shipments";
 
 export default async function EditShipmentPage({ params }: { params: { id: string } }) {
@@ -11,8 +12,12 @@ export default async function EditShipmentPage({ params }: { params: { id: strin
 
   return (
     <div>
-      <TopBar title={`Edit ${shipment.tracking_id}`} subtitle="Update shipment details and status" />
-      <div className="p-6">
+      <TopBar
+        title={shipment.tracking_id}
+        subtitle={`${shipment.sender_name} to ${shipment.receiver_name} · ${shipment.destination_country}`}
+      />
+      <TrackingCodeBanner trackingId={shipment.tracking_id} />
+      <div className="p-6 pt-5">
         <ShipmentForm shipment={shipment} />
       </div>
     </div>
