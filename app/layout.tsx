@@ -24,9 +24,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EDP Courier | Precision. Speed. Intelligence.",
+  title: "EDP Courier | Precision. Speed. Delivered.",
   description:
-    "Track every shipment in real time with the most advanced private courier intelligence platform ever built.",
+    "EDP Courier delivers packages to over 180 countries with real time tracking, express options, international freight, and same day courier services.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

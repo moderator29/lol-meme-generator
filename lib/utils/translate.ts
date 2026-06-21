@@ -18,23 +18,19 @@ export async function translateText(text: string, targetLang: string): Promise<s
     if (cached) return cached;
   }
 
-  const apiKey = process.env.NEXT_PUBLIC_GOOGLE_TRANSLATE_API_KEY;
-  if (!apiKey) return text;
-
   try {
-    const response = await fetch(
-      `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ q: text, target: targetLang, format: "text" }),
-      }
-    );
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=${encodeURIComponent(targetLang)}&dt=t&q=${encodeURIComponent(text)}`;
+    const response = await fetch(url);
 
     if (!response.ok) return text;
 
-    const data = await response.json();
-    const translated: string | undefined = data?.data?.translations?.[0]?.translatedText;
+    const data: unknown = await response.json();
+    if (!Array.isArray(data) || !Array.isArray(data[0]) || !Array.isArray(data[0][0])) return text;
+
+    const translated = (data as string[][][])[0]
+      .filter(Boolean)
+      .map((chunk) => chunk[0] ?? "")
+      .join("");
 
     if (!translated) return text;
 

@@ -23,8 +23,9 @@ export function FeaturesSection() {
           <span className="text-label uppercase text-gold-dark">{t("eyebrow")}</span>
           <h2 className="mt-3 font-display text-h2 font-bold text-navy-deep dark:text-ivory">
             {t("titlePrefix")}
-            <span className="bg-gradient-to-r from-gold-light to-gold-dark bg-clip-text text-transparent">{t("titleHighlight")}</span>
-            {t("titleSuffix")}
+            <span className="bg-gradient-to-r from-gold-light to-gold-dark bg-clip-text text-transparent">
+              {t("titleHighlight")}
+            </span>
           </h2>
           <p className="mt-4 text-body-lg text-navy-soft/75 dark:text-ivory/65">{t("subtitle")}</p>
         </div>

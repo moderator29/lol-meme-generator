@@ -17,6 +17,7 @@ export function Navbar() {
     { href: "/track", label: t("track") },
     { href: "/services", label: t("services") },
     { href: "/about", label: t("about") },
+    { href: "/faq", label: t("faq") },
     { href: "/contact", label: t("contact") },
   ];
 

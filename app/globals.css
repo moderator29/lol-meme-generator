@@ -27,6 +27,7 @@ body {
   background: var(--background);
   font-family: var(--font-inter), sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -124,4 +125,27 @@ body {
     background-size: 1000px 100%;
     @apply animate-shimmer;
   }
+
+  .aurora-blob {
+    @apply absolute rounded-full blur-3xl opacity-30 dark:opacity-20 pointer-events-none;
+  }
 }
+
+@keyframes aurora-drift-1 {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(40px, -30px) scale(1.07); }
+  66% { transform: translate(-25px, 18px) scale(0.94); }
+}
+@keyframes aurora-drift-2 {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  40% { transform: translate(-35px, 22px) scale(1.1); }
+  70% { transform: translate(28px, -18px) scale(0.91); }
+}
+@keyframes aurora-drift-3 {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  50% { transform: translate(20px, 28px) scale(1.05); }
+}
+
+.aurora-1 { animation: aurora-drift-1 14s ease-in-out infinite; }
+.aurora-2 { animation: aurora-drift-2 18s ease-in-out infinite; }
+.aurora-3 { animation: aurora-drift-3 11s ease-in-out infinite; }

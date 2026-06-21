@@ -13,7 +13,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "The tracking intelligence is the best we have used. Our support tickets about late packages dropped by more than half after switching.",
+      "The real time tracking is the best we have used. Our support tickets about late packages dropped by more than half after switching to EDP Courier.",
     name: "Diego Fernandez",
     role: "Logistics Director, Solaris Manufacturing",
   },
