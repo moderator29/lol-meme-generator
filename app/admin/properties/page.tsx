@@ -1,12 +1,13 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Plus, Pencil, ImageIcon } from "lucide-react";
 import { DashboardShell } from "@/components/dashboard-shell";
+import { SafeImage } from "@/components/safe-image";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ADMIN_NAV } from "../nav";
 import { prisma } from "@/lib/prisma";
 import { formatGBP, propertyTypeLabel } from "@/lib/format";
+import { resolveImageSrc } from "@/lib/images";
 
 export const metadata = { title: "Manage properties" };
 
@@ -43,8 +44,8 @@ export default async function AdminPropertiesPage() {
             >
               <div className="relative h-16 w-20 shrink-0 overflow-hidden rounded-lg bg-muted">
                 {img ? (
-                  <Image
-                    src={img.url}
+                  <SafeImage
+                    src={resolveImageSrc(img.url, img.id)}
                     alt={p.addressLine1}
                     fill
                     sizes="80px"

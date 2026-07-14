@@ -1,10 +1,11 @@
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowRight, BedDouble, Bath, MapPin } from "lucide-react";
+import { SafeImage } from "@/components/safe-image";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { formatGBP, propertyTypeLabel } from "@/lib/format";
+import { resolveImageSrc } from "@/lib/images";
 import type { Property, PropertyImage } from "@prisma/client";
 
 type PropertyWithImages = Property & { images: PropertyImage[] };
@@ -18,8 +19,8 @@ export function PropertyCard({ property }: { property: PropertyWithImages }) {
       <Link href={`/property/${property.id}`} className="block">
         <div className="relative aspect-[4/3] w-full overflow-hidden bg-muted">
           {primary ? (
-            <Image
-              src={primary.url}
+            <SafeImage
+              src={resolveImageSrc(primary.url, primary.id)}
               alt={primary.alt ?? property.addressLine1}
               fill
               sizes="(max-width: 768px) 100vw, 33vw"

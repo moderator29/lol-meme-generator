@@ -1,12 +1,13 @@
 "use client";
 
 import { useRef } from "react";
-import Image from "next/image";
 import { Trash2, Star, Plus } from "lucide-react";
+import { SafeImage } from "@/components/safe-image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { addImage, deleteImage } from "@/app/admin/actions";
+import { resolveImageSrc } from "@/lib/images";
 import type { PropertyImage } from "@prisma/client";
 
 export function ImageManager({
@@ -27,8 +28,8 @@ export function ImageManager({
               key={img.id}
               className="group relative aspect-[4/3] overflow-hidden rounded-lg border bg-muted"
             >
-              <Image
-                src={img.url}
+              <SafeImage
+                src={resolveImageSrc(img.url, img.id)}
                 alt={img.alt ?? ""}
                 fill
                 sizes="200px"

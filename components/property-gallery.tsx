@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import { ImageIcon } from "lucide-react";
+import { SafeImage } from "@/components/safe-image";
 import { cn } from "@/lib/utils";
+import { resolveImageSrc } from "@/lib/images";
 import type { PropertyImage } from "@prisma/client";
 
 export function PropertyGallery({
@@ -29,8 +30,8 @@ export function PropertyGallery({
   return (
     <div className="space-y-3">
       <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl border bg-muted">
-        <Image
-          src={ordered[active].url}
+        <SafeImage
+          src={resolveImageSrc(ordered[active].url, ordered[active].id)}
           alt={ordered[active].alt ?? alt}
           fill
           priority
@@ -52,8 +53,8 @@ export function PropertyGallery({
                   : "border-transparent opacity-80 hover:opacity-100",
               )}
             >
-              <Image
-                src={img.url}
+              <SafeImage
+                src={resolveImageSrc(img.url, img.id)}
                 alt={img.alt ?? alt}
                 fill
                 sizes="20vw"

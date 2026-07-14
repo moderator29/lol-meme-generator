@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Property image">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef2f7"/>
+      <stop offset="1" stop-color="#dbe3ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <rect y="430" width="800" height="170" fill="#c9d4e0"/>
+  <!-- house -->
+  <g transform="translate(250 210)">
+    <rect x="20" y="120" width="260" height="180" rx="6" fill="#1b2a44"/>
+    <polygon points="0,130 150,20 300,130" fill="#24406b"/>
+    <rect x="120" y="200" width="60" height="100" rx="4" fill="#8cb63c"/>
+    <rect x="55" y="165" width="55" height="45" rx="4" fill="#aebfd4"/>
+    <rect x="190" y="165" width="55" height="45" rx="4" fill="#aebfd4"/>
+    <circle cx="168" cy="252" r="4" fill="#24406b"/>
+  </g>
+  <text x="400" y="540" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#5b6b80">Property Registry</text>
+</svg>
