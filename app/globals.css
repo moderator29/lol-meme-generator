@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 213 45% 14%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 213 45% 14%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 213 45% 14%;
+
+    /* Deep government navy (primary actions, headings) */
+    --primary: 213 55% 19%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Darkest navy for header / footer / feature bands */
+    --brand: 213 58% 15%;
+    --brand-foreground: 0 0% 100%;
+
+    --secondary: 213 30% 95%;
+    --secondary-foreground: 213 50% 20%;
+
+    --muted: 213 30% 96%;
+    --muted-foreground: 214 14% 42%;
+
+    /* Lime-green CTA accent */
+    --accent: 82 52% 47%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 46%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 142 60% 36%;
+    --success-foreground: 0 0% 100%;
+
+    /* Gold used for review stars */
+    --gold: 42 96% 52%;
+
+    --border: 213 20% 88%;
+    --input: 213 20% 86%;
+    --ring: 213 55% 30%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 213 45% 9%;
+    --foreground: 210 40% 98%;
+
+    --card: 213 42% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 213 42% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 80% 62%;
+    --primary-foreground: 213 50% 12%;
+
+    --brand: 213 50% 11%;
+    --brand-foreground: 0 0% 100%;
+
+    --secondary: 213 30% 18%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 213 28% 17%;
+    --muted-foreground: 214 18% 66%;
+
+    --accent: 82 48% 50%;
+    --accent-foreground: 213 50% 10%;
+
+    --destructive: 0 63% 46%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 142 55% 46%;
+    --success-foreground: 0 0% 100%;
+
+    --gold: 42 96% 56%;
+
+    --border: 213 28% 24%;
+    --input: 213 28% 24%;
+    --ring: 210 80% 62%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Subtle grid backdrop used on hero sections */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, hsl(var(--border) / 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, hsl(var(--border) / 0.5) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
