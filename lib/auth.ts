@@ -95,6 +95,14 @@ export async function requireUser(): Promise<User> {
 
 export async function requireAdmin(): Promise<User> {
   const user = await requireUser();
+
+  // Demo mode (no Clerk): gate the admin panel behind a shared password.
+  if (!authEnabled()) {
+    const { hasAdminAccess } = await import("@/lib/admin-gate");
+    if (!(await hasAdminAccess())) redirect("/admin-login");
+    return user;
+  }
+
   if (user.role !== "ADMIN") redirect("/dashboard");
   return user;
 }

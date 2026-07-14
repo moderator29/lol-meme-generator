@@ -14,6 +14,20 @@ function str(fd: FormData, key: string): string {
   return typeof v === "string" ? v : "";
 }
 
+/** Generate a plausible, unique registry (title) number like "AB1234567". */
+async function generateRegistryNumber(): Promise<string> {
+  const letters = "ABCDEFGHJKLMNPRSTVWXYZ";
+  const rand = (n: number) => Math.floor(Math.random() * n);
+  for (let attempt = 0; attempt < 8; attempt++) {
+    const code = `${letters[rand(letters.length)]}${letters[rand(letters.length)]}${100000 + rand(900000)}`;
+    const clash = await prisma.property.findUnique({
+      where: { registryNumber: code },
+    });
+    if (!clash) return code;
+  }
+  return `PR${Date.now().toString().slice(-9)}`;
+}
+
 function buildPropertyData(fd: FormData) {
   return propertyInputSchema.safeParse({
     registryNumber: str(fd, "registryNumber"),
@@ -41,22 +55,30 @@ export async function createProperty(
     return { error: parsed.error.issues[0]?.message ?? "Invalid input" };
   }
 
-  const existing = await prisma.property.findUnique({
-    where: { registryNumber: parsed.data.registryNumber },
-  });
-  if (existing) {
-    return { error: "A property with that registry number already exists." };
+  // Auto-generate the registry code when left blank; otherwise ensure unique.
+  let registryNumber = parsed.data.registryNumber?.trim() ?? "";
+  if (!registryNumber) {
+    registryNumber = await generateRegistryNumber();
+  } else {
+    const existing = await prisma.property.findUnique({
+      where: { registryNumber },
+    });
+    if (existing) {
+      return { error: "A property with that registry number already exists." };
+    }
   }
 
   const property = await prisma.property.create({
     data: {
       ...parsed.data,
+      registryNumber,
       addressLine2: parsed.data.addressLine2 || null,
       description: parsed.data.description || "",
     },
   });
 
   revalidatePath("/admin/properties");
+  revalidatePath("/");
   redirect(`/admin/properties/${property.id}`);
 }
 
@@ -73,17 +95,23 @@ export async function updateProperty(
     return { error: parsed.error.issues[0]?.message ?? "Invalid input" };
   }
 
-  const clash = await prisma.property.findFirst({
-    where: { registryNumber: parsed.data.registryNumber, NOT: { id } },
-  });
-  if (clash) {
-    return { error: "Another property already uses that registry number." };
+  let registryNumber = parsed.data.registryNumber?.trim() ?? "";
+  if (!registryNumber) {
+    registryNumber = await generateRegistryNumber();
+  } else {
+    const clash = await prisma.property.findFirst({
+      where: { registryNumber, NOT: { id } },
+    });
+    if (clash) {
+      return { error: "Another property already uses that registry number." };
+    }
   }
 
   await prisma.property.update({
     where: { id },
     data: {
       ...parsed.data,
+      registryNumber,
       addressLine2: parsed.data.addressLine2 || null,
       description: parsed.data.description || "",
     },
@@ -91,6 +119,7 @@ export async function updateProperty(
 
   revalidatePath(`/admin/properties/${id}`);
   revalidatePath("/admin/properties");
+  revalidatePath("/");
   return { ok: true };
 }
 
@@ -122,14 +151,15 @@ export async function addImage(formData: FormData) {
   let finalUrl = url;
 
   if (file instanceof File && file.size > 0) {
+    // Store the image inline as a data URL so it persists in the database and
+    // renders on any deployment (serverless disks are ephemeral, so we don't
+    // rely on local file storage for uploaded images).
+    if (file.size > 6_000_000) {
+      return { error: "Image is too large (max 6 MB)." } as FormState;
+    }
     const buffer = Buffer.from(await file.arrayBuffer());
-    const key = await storage().put({
-      body: buffer,
-      contentType: file.type || "image/jpeg",
-      keyPrefix: "images",
-      filename: file.name,
-    });
-    finalUrl = `/api/storage/${key}`;
+    const contentType = file.type || "image/jpeg";
+    finalUrl = `data:${contentType};base64,${buffer.toString("base64")}`;
   }
 
   if (!finalUrl) return;
@@ -146,6 +176,7 @@ export async function addImage(formData: FormData) {
 
   revalidatePath(`/admin/properties/${propertyId}`);
   revalidatePath(`/property/${propertyId}`);
+  revalidatePath("/");
 }
 
 export async function deleteImage(formData: FormData) {

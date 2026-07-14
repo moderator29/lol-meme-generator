@@ -32,13 +32,12 @@ export function PropertyForm({ property }: { property?: Property }) {
       {property && <input type="hidden" name="id" value={property.id} />}
 
       <div className="grid gap-5 sm:grid-cols-2">
-        <Field label="Registry number" htmlFor="registryNumber" required>
+        <Field label="Registry number" htmlFor="registryNumber">
           <Input
             id="registryNumber"
             name="registryNumber"
             defaultValue={property?.registryNumber}
-            placeholder="e.g. SY1234567"
-            required
+            placeholder="Leave blank to auto-generate"
           />
         </Field>
         <Field label="Property type" htmlFor="propertyType" required>

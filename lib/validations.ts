@@ -18,7 +18,8 @@ export const documentTypeEnum = z.enum([
 ]);
 
 export const propertyInputSchema = z.object({
-  registryNumber: z.string().trim().min(3, "Registry number is required"),
+  // Optional — auto-generated when left blank.
+  registryNumber: z.string().trim().max(40).optional().or(z.literal("")),
   addressLine1: z.string().trim().min(2, "Address is required"),
   addressLine2: z.string().trim().optional().or(z.literal("")),
   city: z.string().trim().min(2, "City is required"),
