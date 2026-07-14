@@ -40,9 +40,6 @@ const DOCUMENT_PRODUCTS = [
   },
 ];
 
-// Reflect newly added/edited properties without a rebuild.
-export const revalidate = 60;
-
 export default async function HomePage() {
   const properties = await getFeaturedProperties(6);
 

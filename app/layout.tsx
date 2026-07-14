@@ -13,6 +13,11 @@ const inter = Inter({
   display: "swap",
 });
 
+// This app is database-backed on every page (the header resolves the current
+// user). Render per-request so `next build` never executes DB queries at build
+// time — the database is only needed at runtime.
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: {
     default: "Property Registry — Official-style property title search",
