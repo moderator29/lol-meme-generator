@@ -18,6 +18,22 @@ const inter = Inter({
 // time — the database is only needed at runtime.
 export const dynamic = "force-dynamic";
 
+// Resolve the site's base URL defensively: accept values with or without a
+// protocol, and never let a malformed NEXT_PUBLIC_APP_URL crash the build.
+function resolveMetadataBase(): URL | undefined {
+  const raw = process.env.NEXT_PUBLIC_APP_URL?.trim();
+  const candidate = raw
+    ? /^https?:\/\//i.test(raw)
+      ? raw
+      : `https://${raw}`
+    : "http://localhost:3000";
+  try {
+    return new URL(candidate);
+  } catch {
+    return undefined;
+  }
+}
+
 export const metadata: Metadata = {
   title: {
     default: "Property Registry — Official-style property title search",
@@ -25,9 +41,7 @@ export const metadata: Metadata = {
   },
   description:
     "Search property records by postcode or address and download title documents. An MVP demonstration platform (sample data — not affiliated with HM Land Registry).",
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000",
-  ),
+  metadataBase: resolveMetadataBase(),
 };
 
 export default function RootLayout({
